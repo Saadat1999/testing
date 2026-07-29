@@ -7,7 +7,17 @@ public class Practice {
         System.out.println(task18(6));
     }
 
+    //Write a Java Program to reverse a string without using String inbuilt function.
+    public static void task1() {
+        String word = "java backend";
 
+        StringBuilder sb = new StringBuilder();
+        for (int i = word.length() - 1; i >= 0; i--) {
+            sb.append(word.charAt(i));
+        }
+
+        System.out.println(sb);
+    }
 
     //Write a Java Program to swap two numbers without using the third variable.
     static void task2() {
